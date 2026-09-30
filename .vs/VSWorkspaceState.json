@@ -3,9 +3,11 @@
     "",
     "\\src",
     "\\src\\features",
-    "\\src\\features\\statistics",
+    "\\src\\features\\product-highlights",
+    "\\src\\features\\product-highlights\\components",
+    "\\src\\features\\product-highlights\\data",
     "\\src\\pages"
   ],
-  "SelectedNode": "\\tsconfig.app.json",
+  "SelectedNode": "\\src\\App.tsx",
   "PreviewInSolutionExplorer": false
 }

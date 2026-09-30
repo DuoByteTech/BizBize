@@ -1,30 +1,42 @@
-﻿import { BrowserRouter, Route, Routes } from "react-router-dom";
+﻿import {
+    BrowserRouter,
+    Route,
+    Routes,
+} from "react-router-dom";
 
 import { MainLayout } from "@/layouts/MainLayout";
 import { AuthLayout } from "@/layouts/AuthLayout";
 import { DashboardLayout } from "@/layouts/DashboardLayout";
 
+// Ana site
 import { HomePage } from "@/pages/HomePage";
 import { HowItWorksPage } from "@/pages/HowItWorksPage";
+import { FeaturesPage } from "@/pages/FeaturesPage";
+
+// Giriş ve kayıt
 import { RegisterPage } from "@/pages/RegisterPage";
 import { LoginPage } from "@/pages/LoginPage";
 
+// Kullanıcı paneli
 import { DashboardHomePage } from "@/pages/DashboardHomePage";
 import { GamesPage } from "@/pages/GamesPage";
 import { CoupleSetupPage } from "@/pages/CoupleSetupPage";
 import { ProfilePage } from "@/pages/ProfilePage";
+import { StatisticsPage } from "@/pages/StatisticsPage";
+
+// Oyun
 import { GameQuestionPage } from "@/pages/GameQuestionPage";
 import { GameResultPage } from "@/pages/GameResultPage";
-
-// İstatistikler sayfası
-import { StatisticsPage } from "@/pages/StatisticsPage";
 
 function App() {
     return (
         <BrowserRouter>
             <Routes>
-                {/* Ana site */}
+
+                {/* ANA SİTE */}
+
                 <Route element={<MainLayout />}>
+
                     <Route
                         path="/"
                         element={<HomePage />}
@@ -34,10 +46,18 @@ function App() {
                         path="/nasil-calisir"
                         element={<HowItWorksPage />}
                     />
+
+                    <Route
+                        path="/ozellikler"
+                        element={<FeaturesPage />}
+                    />
+
                 </Route>
 
-                {/* Giriş / Kayıt */}
+                {/* GİRİŞ VE KAYIT */}
+
                 <Route element={<AuthLayout />}>
+
                     <Route
                         path="/kayit"
                         element={<RegisterPage />}
@@ -47,10 +67,13 @@ function App() {
                         path="/giris"
                         element={<LoginPage />}
                     />
+
                 </Route>
 
-                {/* Kullanıcı paneli */}
+                {/* KULLANICI PANELİ */}
+
                 <Route element={<DashboardLayout />}>
+
                     <Route
                         path="/panel"
                         element={<DashboardHomePage />}
@@ -71,24 +94,27 @@ function App() {
                         element={<ProfilePage />}
                     />
 
-                    {/* İstatistikler */}
+                    {/* İSTATİSTİKLER */}
+
                     <Route
                         path="/istatistikler"
                         element={<StatisticsPage />}
                     />
 
-                    {/* Oyun sayfası */}
+                    {/* OYUN SAYFALARI */}
+
                     <Route
                         path="/oyun/:gameId"
                         element={<GameQuestionPage />}
                     />
 
-                    {/* Oyun sonuçları */}
                     <Route
                         path="/oyun/:gameId/sonuc"
                         element={<GameResultPage />}
                     />
+
                 </Route>
+
             </Routes>
         </BrowserRouter>
     );

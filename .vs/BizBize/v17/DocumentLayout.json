@@ -3,44 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\dell\\Desktop\\Projeler\\BizBize\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dell\\Desktop\\Projeler\\BizBize\\src\\features\\statistics\\data\\statisticsData.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\features\\statistics\\data\\statisticsData.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dell\\Desktop\\Projeler\\BizBize\\src\\pages\\StatisticsPage.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\StatisticsPage.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dell\\Desktop\\Projeler\\BizBize\\tsconfig.app.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tsconfig.app.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dell\\Desktop\\Projeler\\BizBize\\src\\features\\statistics\\components\\CategoryCompatibility.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\features\\statistics\\components\\CategoryCompatibility.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dell\\Desktop\\Projeler\\BizBize\\src\\features\\statistics\\components\\CompatibilityCard.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\features\\statistics\\components\\CompatibilityCard.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dell\\Desktop\\Projeler\\BizBize\\src\\features\\statistics\\components\\StatSummaryCard.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\features\\statistics\\components\\StatSummaryCard.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dell\\Desktop\\Projeler\\BizBize\\src\\features\\statistics\\components\\WeeklyActivityChart.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\features\\statistics\\components\\WeeklyActivityChart.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dell\\Desktop\\Projeler\\BizBize\\src\\App.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\App.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dell\\Desktop\\Projeler\\BizBize\\src\\layouts\\DashboardLayout.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\layouts\\DashboardLayout.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dell\\Desktop\\Projeler\\BizBize\\src\\features\\product-highlights\\components\\FeaturesBottom.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\features\\product-highlights\\components\\FeaturesBottom.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dell\\Desktop\\Projeler\\BizBize\\src\\components\\common\\DashboardHeader.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\common\\DashboardHeader.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dell\\Desktop\\Projeler\\BizBize\\src\\features\\product-highlights\\data\\featuresData.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\features\\product-highlights\\data\\featuresData.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dell\\Desktop\\Projeler\\BizBize\\src\\features\\product-highlights\\components\\FeaturesGrid.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\features\\product-highlights\\components\\FeaturesGrid.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dell\\Desktop\\Projeler\\BizBize\\src\\features\\product-highlights\\components\\FeaturesHero.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\features\\product-highlights\\components\\FeaturesHero.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dell\\Desktop\\Projeler\\BizBize\\src\\features\\product-highlights\\components\\FeatureCard.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\features\\product-highlights\\components\\FeatureCard.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dell\\Desktop\\Projeler\\BizBize\\src\\pages\\FeaturesPage.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\FeaturesPage.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -94,127 +82,94 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "tsconfig.app.json",
-              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Projeler\\BizBize\\tsconfig.app.json",
-              "RelativeDocumentMoniker": "tsconfig.app.json",
-              "ToolTip": "C:\\Users\\dell\\Desktop\\Projeler\\BizBize\\tsconfig.app.json",
-              "RelativeToolTip": "tsconfig.app.json",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAgwBgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-09-30T18:16:03.988Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DashboardLayout.tsx",
-              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Projeler\\BizBize\\src\\layouts\\DashboardLayout.tsx",
-              "RelativeDocumentMoniker": "src\\layouts\\DashboardLayout.tsx",
-              "ToolTip": "C:\\Users\\dell\\Desktop\\Projeler\\BizBize\\src\\layouts\\DashboardLayout.tsx",
-              "RelativeToolTip": "src\\layouts\\DashboardLayout.tsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2026-09-30T18:00:54.997Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "statisticsData.ts",
-              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Projeler\\BizBize\\src\\features\\statistics\\data\\statisticsData.ts",
-              "RelativeDocumentMoniker": "src\\features\\statistics\\data\\statisticsData.ts",
-              "ToolTip": "C:\\Users\\dell\\Desktop\\Projeler\\BizBize\\src\\features\\statistics\\data\\statisticsData.ts",
-              "RelativeToolTip": "src\\features\\statistics\\data\\statisticsData.ts",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAABoAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2026-09-30T17:59:47.174Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "WeeklyActivityChart.tsx",
-              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Projeler\\BizBize\\src\\features\\statistics\\components\\WeeklyActivityChart.tsx",
-              "RelativeDocumentMoniker": "src\\features\\statistics\\components\\WeeklyActivityChart.tsx",
-              "ToolTip": "C:\\Users\\dell\\Desktop\\Projeler\\BizBize\\src\\features\\statistics\\components\\WeeklyActivityChart.tsx",
-              "RelativeToolTip": "src\\features\\statistics\\components\\WeeklyActivityChart.tsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2026-09-30T17:57:18.975Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "StatSummaryCard.tsx",
-              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Projeler\\BizBize\\src\\features\\statistics\\components\\StatSummaryCard.tsx",
-              "RelativeDocumentMoniker": "src\\features\\statistics\\components\\StatSummaryCard.tsx",
-              "ToolTip": "C:\\Users\\dell\\Desktop\\Projeler\\BizBize\\src\\features\\statistics\\components\\StatSummaryCard.tsx",
-              "RelativeToolTip": "src\\features\\statistics\\components\\StatSummaryCard.tsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2026-09-30T17:57:06.287Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CompatibilityCard.tsx",
-              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Projeler\\BizBize\\src\\features\\statistics\\components\\CompatibilityCard.tsx",
-              "RelativeDocumentMoniker": "src\\features\\statistics\\components\\CompatibilityCard.tsx",
-              "ToolTip": "C:\\Users\\dell\\Desktop\\Projeler\\BizBize\\src\\features\\statistics\\components\\CompatibilityCard.tsx",
-              "RelativeToolTip": "src\\features\\statistics\\components\\CompatibilityCard.tsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2026-09-30T17:56:52.649Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CategoryCompatibility.tsx",
-              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Projeler\\BizBize\\src\\features\\statistics\\components\\CategoryCompatibility.tsx",
-              "RelativeDocumentMoniker": "src\\features\\statistics\\components\\CategoryCompatibility.tsx",
-              "ToolTip": "C:\\Users\\dell\\Desktop\\Projeler\\BizBize\\src\\features\\statistics\\components\\CategoryCompatibility.tsx",
-              "RelativeToolTip": "src\\features\\statistics\\components\\CategoryCompatibility.tsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2026-09-30T17:56:41.856Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StatisticsPage.tsx",
-              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Projeler\\BizBize\\src\\pages\\StatisticsPage.tsx",
-              "RelativeDocumentMoniker": "src\\pages\\StatisticsPage.tsx",
-              "ToolTip": "C:\\Users\\dell\\Desktop\\Projeler\\BizBize\\src\\pages\\StatisticsPage.tsx",
-              "RelativeToolTip": "src\\pages\\StatisticsPage.tsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2026-09-30T17:54:38.01Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "DashboardHeader.tsx",
-              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Projeler\\BizBize\\src\\components\\common\\DashboardHeader.tsx",
-              "RelativeDocumentMoniker": "src\\components\\common\\DashboardHeader.tsx",
-              "ToolTip": "C:\\Users\\dell\\Desktop\\Projeler\\BizBize\\src\\components\\common\\DashboardHeader.tsx",
-              "RelativeToolTip": "src\\components\\common\\DashboardHeader.tsx",
-              "ViewState": "AgIAAGIAAAAAAAAAAADwv20AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2026-09-30T17:44:37.921Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "App.tsx",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Projeler\\BizBize\\src\\App.tsx",
               "RelativeDocumentMoniker": "src\\App.tsx",
               "ToolTip": "C:\\Users\\dell\\Desktop\\Projeler\\BizBize\\src\\App.tsx",
               "RelativeToolTip": "src\\App.tsx",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAkwEsAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAQwHoAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2026-09-29T17:11:37.004Z"
+              "WhenOpened": "2026-09-30T18:51:35.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FeaturesPage.tsx",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Projeler\\BizBize\\src\\pages\\FeaturesPage.tsx",
+              "RelativeDocumentMoniker": "src\\pages\\FeaturesPage.tsx",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\Projeler\\BizBize\\src\\pages\\FeaturesPage.tsx",
+              "RelativeToolTip": "src\\pages\\FeaturesPage.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-09-30T18:50:13.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "featuresData.ts",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Projeler\\BizBize\\src\\features\\product-highlights\\data\\featuresData.ts",
+              "RelativeDocumentMoniker": "src\\features\\product-highlights\\data\\featuresData.ts",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\Projeler\\BizBize\\src\\features\\product-highlights\\data\\featuresData.ts",
+              "RelativeToolTip": "src\\features\\product-highlights\\data\\featuresData.ts",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAUwIEAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-09-30T18:49:58.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FeaturesBottom.tsx",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Projeler\\BizBize\\src\\features\\product-highlights\\components\\FeaturesBottom.tsx",
+              "RelativeDocumentMoniker": "src\\features\\product-highlights\\components\\FeaturesBottom.tsx",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\Projeler\\BizBize\\src\\features\\product-highlights\\components\\FeaturesBottom.tsx",
+              "RelativeToolTip": "src\\features\\product-highlights\\components\\FeaturesBottom.tsx",
+              "ViewState": "AgIAAOEAAAAAAAAAAAAQwPgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-09-30T18:49:11.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FeaturesGrid.tsx",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Projeler\\BizBize\\src\\features\\product-highlights\\components\\FeaturesGrid.tsx",
+              "RelativeDocumentMoniker": "src\\features\\product-highlights\\components\\FeaturesGrid.tsx",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\Projeler\\BizBize\\src\\features\\product-highlights\\components\\FeaturesGrid.tsx",
+              "RelativeToolTip": "src\\features\\product-highlights\\components\\FeaturesGrid.tsx",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAQwK0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-09-30T18:49:02.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FeatureCard.tsx",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Projeler\\BizBize\\src\\features\\product-highlights\\components\\FeatureCard.tsx",
+              "RelativeDocumentMoniker": "src\\features\\product-highlights\\components\\FeatureCard.tsx",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\Projeler\\BizBize\\src\\features\\product-highlights\\components\\FeatureCard.tsx",
+              "RelativeToolTip": "src\\features\\product-highlights\\components\\FeatureCard.tsx",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAQwIgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-09-30T18:48:52.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FeaturesHero.tsx",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\Projeler\\BizBize\\src\\features\\product-highlights\\components\\FeaturesHero.tsx",
+              "RelativeDocumentMoniker": "src\\features\\product-highlights\\components\\FeaturesHero.tsx",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\Projeler\\BizBize\\src\\features\\product-highlights\\components\\FeaturesHero.tsx",
+              "RelativeToolTip": "src\\features\\product-highlights\\components\\FeaturesHero.tsx",
+              "ViewState": "AgIAAOoAAAAAAAAAAAAQwAEBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-09-30T18:48:46.64Z",
+              "EditorCaption": ""
             }
           ]
         },
