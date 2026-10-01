@@ -1,114 +1,13 @@
 ﻿import {
     ArrowLeft,
     ChevronRight,
-    Coffee,
-    Dices,
-    Heart,
-    Laugh,
-    Star,
-    UsersRound,
 } from "lucide-react";
 
 import { useNavigate } from "react-router-dom";
 
 import { AppContainer } from "@/components/ui/AppContainer";
 
-type GameCategory = {
-    title: string;
-    description: string;
-    icon: React.ReactNode;
-    background: string;
-    path: string;
-};
-
-const categories: GameCategory[] = [
-    {
-        title: "Rastgele",
-        description: "Her şeyden biraz",
-        icon: (
-            <Dices
-                size={42}
-                strokeWidth={2.2}
-                className="text-[#6338d7]"
-            />
-        ),
-        background:
-            "linear-gradient(135deg, #f2edff 0%, #ece4ff 100%)",
-        path: "/oyunlar/rastgele",
-    },
-    {
-        title: "Birbirimizi Tanıyalım",
-        description: "Temel sorular",
-        icon: (
-            <Heart
-                size={42}
-                strokeWidth={2}
-                fill="currentColor"
-                className="text-[#d93959]"
-            />
-        ),
-        background:
-            "linear-gradient(135deg, #fff1f4 0%, #ffe7ec 100%)",
-        path: "/oyunlar/birbirimizi-taniyalim",
-    },
-    {
-        title: "Hayaller & Hedefler",
-        description: "Geleceğe dair",
-        icon: (
-            <Star
-                size={43}
-                strokeWidth={2}
-                fill="currentColor"
-                className="text-[#efa12b]"
-            />
-        ),
-        background:
-            "linear-gradient(135deg, #fff8e9 0%, #fff0d8 100%)",
-        path: "/oyunlar/hayaller-hedefler",
-    },
-    {
-        title: "Günlük Yaşam",
-        description: "Alışkanlıklar, tercihler",
-        icon: (
-            <Coffee
-                size={42}
-                strokeWidth={2.2}
-                className="text-[#bf5b1d]"
-            />
-        ),
-        background:
-            "linear-gradient(135deg, #fff5e9 0%, #ffead9 100%)",
-        path: "/oyunlar/gunluk-yasam",
-    },
-    {
-        title: "İlişkimiz",
-        description: "Sadece bize özel",
-        icon: (
-            <UsersRound
-                size={43}
-                strokeWidth={2.2}
-                className="text-[#238c87]"
-            />
-        ),
-        background:
-            "linear-gradient(135deg, #ecf9f6 0%, #def3ef 100%)",
-        path: "/oyunlar/iliskimiz",
-    },
-    {
-        title: "Eğlenceli Sorular",
-        description: "Keyifli ve farklı",
-        icon: (
-            <Laugh
-                size={43}
-                strokeWidth={2.2}
-                className="text-[#5832c7]"
-            />
-        ),
-        background:
-            "linear-gradient(135deg, #f2edff 0%, #eae2ff 100%)",
-        path: "/oyunlar/eglenceli-sorular",
-    },
-];
+import { gameCategoryList } from "@/features/games/data/gameCategories";
 
 export function GamesPage() {
     const navigate = useNavigate();
@@ -153,7 +52,9 @@ export function GamesPage() {
             />
 
             <AppContainer className="relative">
+
                 {/* Breadcrumb */}
+
                 <div className="flex items-center gap-4">
                     <button
                         type="button"
@@ -205,6 +106,7 @@ export function GamesPage() {
                 </div>
 
                 {/* Başlık */}
+
                 <div className="relative mx-auto mt-5 max-w-2xl text-center sm:mt-7">
                     <h1
                         className="
@@ -232,7 +134,6 @@ export function GamesPage() {
                         rastgele sorularla devam edin.
                     </p>
 
-                    {/* Sağdaki dekoratif çizgiler */}
                     <div
                         aria-hidden="true"
                         className="
@@ -286,7 +187,8 @@ export function GamesPage() {
                     </div>
                 </div>
 
-                {/* Kategoriler */}
+                {/* Kategori kartları */}
+
                 <div
                     className="
                         mx-auto
@@ -300,90 +202,81 @@ export function GamesPage() {
                         lg:gap-6
                     "
                 >
-                    {categories.map((category) => (
-                        <button
-                            key={category.title}
-                            type="button"
-                            onClick={() =>
-                                navigate(category.path)
-                            }
-                            style={{
-                                background:
-                                    category.background,
-                            }}
-                            className="
-                                group
-                                relative
-                                flex
-                                min-h-[180px]
-                                flex-col
-                                items-center
-                                justify-center
-                                overflow-hidden
-                                rounded-[18px]
-                                border
-                                border-white/70
-                                px-6
-                                py-7
-                                text-center
-                                shadow-[0_8px_26px_rgba(62,42,99,0.035)]
-                                transition-all
-                                duration-300
-                                hover:-translate-y-1.5
-                                hover:shadow-[0_14px_35px_rgba(62,42,99,0.09)]
-                            "
-                        >
-                            <div
+                    {gameCategoryList.map((category) => {
+                        const Icon = category.icon;
+
+                        return (
+                            <button
+                                key={category.id}
+                                type="button"
+                                onClick={() =>
+                                    navigate(`/oyun/${category.id}`)
+                                }
+                                style={{
+                                    background:
+                                        category.cardBackground,
+                                }}
                                 className="
-                                    transition-transform
+                                    group
+                                    relative
+                                    flex
+                                    min-h-[180px]
+                                    flex-col
+                                    items-center
+                                    justify-center
+                                    overflow-hidden
+                                    rounded-[18px]
+                                    border
+                                    border-white/70
+                                    px-6
+                                    py-7
+                                    text-center
+                                    shadow-[0_8px_26px_rgba(62,42,99,0.035)]
+                                    transition-all
                                     duration-300
-                                    group-hover:scale-110
+                                    hover:-translate-y-1.5
+                                    hover:shadow-[0_14px_35px_rgba(62,42,99,0.09)]
                                 "
                             >
-                                {category.icon}
-                            </div>
+                                <div
+                                    className="
+                                        transition-transform
+                                        duration-300
+                                        group-hover:scale-110
+                                    "
+                                >
+                                    <Icon
+                                        size={42}
+                                        strokeWidth={2.2}
+                                        color={category.iconColor}
+                                    />
+                                </div>
 
-                            <h2
-                                className="
-                                    mt-4
-                                    text-[16px]
-                                    font-extrabold
-                                    tracking-[-0.02em]
-                                    text-[#30254d]
-                                "
-                            >
-                                {category.title}
-                            </h2>
+                                <h2
+                                    className="
+                                        mt-4
+                                        text-[16px]
+                                        font-extrabold
+                                        tracking-[-0.02em]
+                                        text-[#30254d]
+                                    "
+                                >
+                                    {category.title}
+                                </h2>
 
-                            <p
-                                className="
-                                    mt-1.5
-                                    text-[13px]
-                                    font-medium
-                                    text-[#888093]
-                                "
-                            >
-                                {category.description}
-                            </p>
-
-                            <div
-                                className="
-                                    pointer-events-none
-                                    absolute
-                                    inset-x-8
-                                    bottom-0
-                                    h-8
-                                    rounded-full
-                                    bg-white/20
-                                    opacity-0
-                                    blur-xl
-                                    transition
-                                    duration-300
-                                    group-hover:opacity-100
-                                "
-                            />
-                        </button>
-                    ))}
+                                <p
+                                    className="
+                                        mt-1.5
+                                        text-[13px]
+                                        font-medium
+                                        text-[#888093]
+                                    "
+                                >
+                                    {category.shortDescription}
+                                </p>
+                            </button>
+                        );
+                    })}
                 </div>
             </AppContainer>
         </section>

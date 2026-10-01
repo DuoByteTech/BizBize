@@ -3,11 +3,12 @@
     "",
     "\\src",
     "\\src\\features",
-    "\\src\\features\\product-highlights",
+    "\\src\\features\\games",
+    "\\src\\features\\games\\data",
     "\\src\\features\\product-highlights\\components",
     "\\src\\features\\product-highlights\\data",
     "\\src\\pages"
   ],
-  "SelectedNode": "\\src\\App.tsx",
+  "SelectedNode": "\\src\\pages\\GameQuestionPage.tsx",
   "PreviewInSolutionExplorer": false
 }
