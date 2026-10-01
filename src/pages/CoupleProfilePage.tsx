@@ -1,5 +1,4 @@
 ﻿import {
-    Clock3,
     Copy,
     Heart,
     HeartHandshake,
@@ -24,16 +23,6 @@ const profileMenu = [
         label: "Çiftimiz",
         icon: HeartHandshake,
         path: "/profil/ciftimiz",
-    },
-    {
-        label: "Oyun Geçmişi",
-        icon: Clock3,
-        path: "/profil/oyun-gecmisi",
-    },
-    {
-        label: "Favori Sorularım",
-        icon: Heart,
-        path: "/profil/favoriler",
     },
     {
         label: "Ayarlar",
