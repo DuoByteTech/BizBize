@@ -24,6 +24,7 @@ import { CoupleSetupPage } from "@/pages/CoupleSetupPage";
 import { ProfilePage } from "@/pages/ProfilePage";
 import { CoupleProfilePage } from "@/pages/CoupleProfilePage";
 import { StatisticsPage } from "@/pages/StatisticsPage";
+import { SettingsPage } from "@/pages/SettingsPage";
 
 // Oyun
 import { GameQuestionPage } from "@/pages/GameQuestionPage";
@@ -103,6 +104,11 @@ function App() {
                     <Route
                         path="/istatistikler"
                         element={<StatisticsPage />}
+                    />
+
+                    <Route
+                        path="/profil/ayarlar"
+                        element={<SettingsPage />}
                     />
 
                     {/* OYUN SAYFALARI */}
