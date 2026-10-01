@@ -1,7 +1,6 @@
 ﻿import {
     CalendarDays,
     Camera,
-    Clock3,
     Heart,
     HeartHandshake,
     KeyRound,
@@ -26,16 +25,6 @@ const profileMenu = [
         label: "Çiftimiz",
         icon: HeartHandshake,
         path: "/profil/ciftimiz",
-    },
-    {
-        label: "Oyun Geçmişi",
-        icon: Clock3,
-        path: "/profil/oyun-gecmisi",
-    },
-    {
-        label: "Favori Sorularım",
-        icon: Heart,
-        path: "/profil/favoriler",
     },
     {
         label: "Ayarlar",
