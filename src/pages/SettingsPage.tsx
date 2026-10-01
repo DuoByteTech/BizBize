@@ -1,8 +1,6 @@
 import { useState } from "react";
 import {
     Bell,
-    Clock3,
-    Heart,
     HeartHandshake,
     KeyRound,
     LockKeyhole,
@@ -20,8 +18,6 @@ import { AppContainer } from "@/components/ui/AppContainer";
 const profileMenu = [
     { label: "Profilim", icon: UserRound, path: "/profil" },
     { label: "Çiftimiz", icon: HeartHandshake, path: "/profil/ciftimiz" },
-    { label: "Oyun Geçmişi", icon: Clock3, path: "/profil/oyun-gecmisi" },
-    { label: "Favori Sorularım", icon: Heart, path: "/profil/favoriler" },
     { label: "Ayarlar", icon: Settings, path: "/profil/ayarlar" },
 ] as const;
 
