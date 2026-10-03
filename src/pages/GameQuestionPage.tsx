@@ -31,6 +31,8 @@ export function GameQuestionPage() {
     const [currentQuestionIndex, setCurrentQuestionIndex] =
         useState(0);
 
+    const [answers, setAnswers] = useState<Record<number, string>>({});
+
     if (!category) {
         return <Navigate to="/oyunlar" replace />;
     }
@@ -54,6 +56,16 @@ export function GameQuestionPage() {
     const isLastQuestion =
         currentQuestionIndex ===
         totalQuestions - 1;
+
+    const currentAnswer =
+        answers[currentQuestionIndex] ?? "";
+
+    function handleAnswerChange(value: string) {
+        setAnswers((previous) => ({
+            ...previous,
+            [currentQuestionIndex]: value,
+        }));
+    }
 
     function handlePrevious() {
         if (isFirstQuestion) {
@@ -354,6 +366,55 @@ export function GameQuestionPage() {
                                 >
                                     {question}
                                 </h1>
+                            </div>
+
+                            {/* Cevap alanı */}
+                            <div className="mt-5 w-full">
+                                <label
+                                    htmlFor="game-answer"
+                                    className="
+                                        mb-2
+                                        block
+                                        text-[13px]
+                                        font-semibold
+                                        text-[#5f5570]
+                                    "
+                                >
+                                    Cevabın
+                                </label>
+
+                                <textarea
+                                    id="game-answer"
+                                    value={currentAnswer}
+                                    onChange={(event) =>
+                                        handleAnswerChange(
+                                            event.target.value,
+                                        )
+                                    }
+                                    placeholder="Cevabını buraya yaz..."
+                                    rows={4}
+                                    className="
+                                        min-h-[112px]
+                                        w-full
+                                        resize-none
+                                        rounded-[16px]
+                                        border
+                                        border-[#e8e2ef]
+                                        bg-white
+                                        px-5
+                                        py-4
+                                        text-[14px]
+                                        leading-6
+                                        text-[#29213d]
+                                        outline-none
+                                        shadow-[0_8px_24px_rgba(56,39,91,0.04)]
+                                        transition
+                                        placeholder:text-[#aaa2b7]
+                                        focus:border-[#8b63ea]
+                                        focus:ring-4
+                                        focus:ring-[#8b63ea]/10
+                                    "
+                                />
                             </div>
 
                             {/*
